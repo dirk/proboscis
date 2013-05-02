@@ -1,4 +1,4 @@
-# Proboscis
+# Proboscis 1.0-Alpha
 
 **A new meta-framework for RPC.**
 
