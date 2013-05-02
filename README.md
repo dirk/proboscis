@@ -4,13 +4,21 @@
 
 ## Transports
 
-### TCP
+### PoTCP
 
-The TCP transport is based off of the [Netstring][netstring]/[Bencode][bencode] formats.
+The Proboscis over TCP (PoTCP) transport is based off of the [Netstring][netstring]/[Bencode][bencode] formats.
 
   [netstring]: http://en.wikipedia.org/wiki/Netstring
   
   [bencode]: http://en.wikipedia.org/wiki/Bencode
+
+#### Request
+
+  {method}.{format}:{length}:{data}
+
+#### Response
+
+  {status}:{format}:{length}:{data}
 
 ## License
 
