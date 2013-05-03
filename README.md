@@ -32,13 +32,13 @@ The Proboscis over TCP (PoTCP) transport is based off of the [Netstring][netstri
 
 ## Formats
 
-`text`: Plain text
+`text` Plain text
 
-`json`: JSON
+`json` JSON
 
-`proto`: Google Protocol Buffer (message must be well-defined)
+`proto` Google Protocol Buffer (message must be well-defined)
 
-`thrift`: Apache Thrift (struct must be well-defined)
+`thrift` Apache Thrift (struct must be well-defined)
 
 ## License
 
